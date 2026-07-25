@@ -3,17 +3,18 @@
   "name": "G. R. Meneghetti",
   "group": "Las voces del presente",
   "summary": "Escritor de fantasía oscura y autor de la trilogía El Último Redentor.",
-  "biography": "Escritor de fantasía oscura y autor de la trilogía *El Último Redentor*. Su obra combina aventura, espiritualidad y una construcción narrativa expandida.\n\nEn *El camino del cazador*, Caelus vuelve a un mundo sin fe para detener a siete entidades ancestrales, manifestaciones de los pecados primordiales, que buscan reliquias capaces de provocar el regreso de Lucifer.",
+  "biography": "G. R. Meneghetti es autor argentino de fantasía oscura. Creador de la trilogía *El Último Redentor*. Nacido en 1978 en Santa Fe, combina mitología, simbolismo, narrativa introspectiva y un enfoque cinematográfico centrado en la caída, la redención y las decisiones que quiebran el alma.\n\nAdemás de su obra literaria, es autor de la Narrativa Extendida Transmedia (N.E.T.), un modelo metodológico que integra literatura y contenidos multimedia para una experiencia más inmersiva.\n\nSu trilogía, gestada durante casi dos décadas, explora la fractura interna, la fe, el sacrificio y las sombras que acompañan al ser humano incluso en su búsqueda de luz.",
   "image": "/images/meneghetti.jpg",
   "imageAlt": "Retrato de G. R. Meneghetti",
   "imagePosition": "center 15%",
   "genre": "Fantasía oscura",
-  "contactLabel": "Contacto a través de CI.ES.PA",
-  "contactUrl": "/contacto/",
   "order": 16,
   "visible": true,
   "seoTitle": "G. R. Meneghetti | Integrante de CI.ES.PA",
   "seoDescription": "Escritor de fantasía oscura y autor de la trilogía El Último Redentor.",
   "socialImage": "/images/seo/autor-gr-meneghetti.jpg",
-  "indexable": true
+  "indexable": true,
+  "contactEmail": "contacto@grmeneghetti.com.ar",
+  "websiteUrl": "https://www.grmeneghetti.com.ar",
+  "websiteLabel": "Sitio web oficial"
 }

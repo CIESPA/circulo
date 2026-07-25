@@ -1,0 +1,4 @@
+1. Copiar todo el contenido de esta carpeta dentro de la carpeta local del repositorio CIESPA/circulo.
+2. Aceptar el reemplazo de archivos.
+3. Ejecutar PUBLICAR_CAMBIOS_V3.bat.
+4. En Netlify, configurar la notificación del formulario contacto-ciespa para contacto@ciespa.com.ar.

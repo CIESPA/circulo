@@ -266,8 +266,11 @@ collections:
       - {label: Fotografía, name: image, widget: image, required: false}
       - {label: Texto alternativo de foto, name: imageAlt, widget: string, required: false}
       - {label: Posición de la foto, name: imagePosition, widget: string, default: center}
-      - {label: Texto del contacto, name: contactLabel, widget: string, required: false}
-      - {label: Enlace de contacto, name: contactUrl, widget: string, required: false}
+      - {label: Correo personal, name: contactEmail, widget: string, required: false}
+      - {label: Sitio web, name: websiteUrl, widget: string, required: false}
+      - {label: Texto del botón web, name: websiteLabel, widget: string, required: false, default: Sitio web oficial}
+      - {label: Texto de contacto adicional, name: contactLabel, widget: string, required: false}
+      - {label: Enlace de contacto adicional, name: contactUrl, widget: string, required: false}
       - {label: Orden, name: order, widget: number, value_type: int}
       - {label: Visible, name: visible, widget: boolean, default: true}
       - *seo_title
