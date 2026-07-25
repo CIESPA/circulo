@@ -1,0 +1,16 @@
+{
+  "name": "CI.ES.PA — Círculo de Escritores Paivenses",
+  "short_name": "CI.ES.PA",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f0e8",
+  "theme_color": "#8b3a2a",
+  "lang": "es-AR",
+  "icons": [
+    {
+      "src": "/images/quill.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

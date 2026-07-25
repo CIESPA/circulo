@@ -1,0 +1,50 @@
+{
+  "domain": "https://www.ciespa.com.ar",
+  "name": "Círculo de Escritores Paivenses",
+  "shortName": "CI.ES.PA",
+  "description": "Comunidad literaria de Laguna Paiva, Santa Fe, dedicada a la escritura, la memoria, los autores locales y la identidad cultural paivense.",
+  "email": "ciespa2026@gmail.com",
+  "location": "Laguna Paiva, Santa Fe, Argentina",
+  "logo": "/images/logo2.webp",
+  "footerLogo": "/images/footer.webp",
+  "defaultSocialImage": "/images/seo/ciespa-institucional.jpg",
+  "footerText": "© 2026 Círculo de Escritores Paivenses\nProyecto de difusión cultural",
+  "nav": [
+    {
+      "label": "Inicio",
+      "url": "/"
+    },
+    {
+      "label": "Historia",
+      "url": "/historia/"
+    },
+    {
+      "label": "Integrantes",
+      "url": "/integrantes/"
+    },
+    {
+      "label": "Archivo",
+      "url": "/archivo/"
+    },
+    {
+      "label": "Relatos",
+      "url": "/relatos/"
+    },
+    {
+      "label": "Escritos paivenses",
+      "url": "/escritos-paivenses/"
+    },
+    {
+      "label": "Librería virtual",
+      "url": "/libreria-virtual/"
+    },
+    {
+      "label": "Eventos",
+      "url": "/eventos/"
+    },
+    {
+      "label": "Contacto",
+      "url": "/contacto/"
+    }
+  ]
+}

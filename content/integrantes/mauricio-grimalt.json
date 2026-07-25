@@ -1,0 +1,19 @@
+{
+  "slug": "mauricio-grimalt",
+  "name": "Mauricio Grimalt",
+  "group": "Antiguos integrantes",
+  "summary": "Escritor y narrador cuya prosa explora la vida cotidiana y los recuerdos familiares.",
+  "biography": "Escritor y narrador paivense, integrante de la revista literaria de CI.ES.PA. Su prosa explora la vida cotidiana, la memoria y los recuerdos familiares.",
+  "image": "",
+  "imageAlt": "",
+  "imagePosition": "center",
+  "genre": "Narrativa",
+  "contactLabel": "Contacto a través de CI.ES.PA",
+  "contactUrl": "/contacto/",
+  "order": 9,
+  "visible": true,
+  "seoTitle": "Mauricio Grimalt | Integrante de CI.ES.PA",
+  "seoDescription": "Escritor y narrador cuya prosa explora la vida cotidiana y los recuerdos familiares.",
+  "socialImage": "/images/seo/autor-mauricio-grimalt.jpg",
+  "indexable": true
+}

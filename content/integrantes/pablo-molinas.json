@@ -1,0 +1,19 @@
+{
+  "slug": "pablo-molinas",
+  "name": "Pablo Molinas",
+  "group": "Antiguos integrantes",
+  "summary": "Su obra combina la memoria ferroviaria con la vida cotidiana de la ciudad.",
+  "biography": "Escritor paivense cuyo trabajo fue publicado en la revista literaria de CI.ES.PA. Su obra combina la memoria ferroviaria con escenas y voces de la vida cotidiana de Laguna Paiva.",
+  "image": "",
+  "imageAlt": "",
+  "imagePosition": "center",
+  "genre": "Narrativa",
+  "contactLabel": "Contacto a través de CI.ES.PA",
+  "contactUrl": "/contacto/",
+  "order": 7,
+  "visible": true,
+  "seoTitle": "Pablo Molinas | Integrante de CI.ES.PA",
+  "seoDescription": "Su obra combina la memoria ferroviaria con la vida cotidiana de la ciudad.",
+  "socialImage": "/images/seo/autor-pablo-molinas.jpg",
+  "indexable": true
+}

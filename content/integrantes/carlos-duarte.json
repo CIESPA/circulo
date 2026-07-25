@@ -1,0 +1,19 @@
+{
+  "slug": "carlos-duarte",
+  "name": "Carlos Duarte",
+  "group": "Fundadores",
+  "summary": "Narrador y cronista que aporta historias al patrimonio literario de Laguna Paiva.",
+  "biography": "Narrador, cronista e integrante fundador. Sus historias forman parte del patrimonio literario de Laguna Paiva y su trayectoria estuvo vinculada a lecturas y encuentros culturales.",
+  "image": "",
+  "imageAlt": "",
+  "imagePosition": "center",
+  "genre": "Narrativa y crónica",
+  "contactLabel": "Contacto a través de CI.ES.PA",
+  "contactUrl": "/contacto/",
+  "order": 3,
+  "visible": true,
+  "seoTitle": "Carlos Duarte | Integrante de CI.ES.PA",
+  "seoDescription": "Narrador y cronista que aporta historias al patrimonio literario de Laguna Paiva.",
+  "socialImage": "/images/seo/autor-carlos-duarte.jpg",
+  "indexable": true
+}

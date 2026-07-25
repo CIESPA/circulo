@@ -1,0 +1,19 @@
+{
+  "slug": "luis-mendoza",
+  "name": "Luis Mendoza",
+  "group": "Antiguos integrantes",
+  "summary": "Escritor que aportó su obra a la vida literaria de la comunidad.",
+  "biography": "Escritor paivense que formó parte del círculo y aportó su obra a la vida literaria y cultural de la comunidad.",
+  "image": "",
+  "imageAlt": "",
+  "imagePosition": "center",
+  "genre": "Literatura local",
+  "contactLabel": "Contacto a través de CI.ES.PA",
+  "contactUrl": "/contacto/",
+  "order": 13,
+  "visible": true,
+  "seoTitle": "Luis Mendoza | Integrante de CI.ES.PA",
+  "seoDescription": "Escritor que aportó su obra a la vida literaria de la comunidad.",
+  "socialImage": "/images/seo/autor-luis-mendoza.jpg",
+  "indexable": true
+}

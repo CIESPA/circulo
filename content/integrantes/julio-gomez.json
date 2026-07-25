@@ -1,0 +1,19 @@
+{
+  "slug": "julio-gomez",
+  "name": "Julio Gómez",
+  "group": "Fundadores",
+  "summary": "Poeta local que aportó sus versos a la revista del círculo.",
+  "biography": "Poeta local e integrante fundador. Aportó sus versos a la revista del círculo y colaboró en actividades culturales y en la difusión de la historia ferroviaria de Laguna Paiva.",
+  "image": "",
+  "imageAlt": "",
+  "imagePosition": "center",
+  "genre": "Poesía",
+  "contactLabel": "Contacto a través de CI.ES.PA",
+  "contactUrl": "/contacto/",
+  "order": 2,
+  "visible": true,
+  "seoTitle": "Julio Gómez | Integrante de CI.ES.PA",
+  "seoDescription": "Poeta local que aportó sus versos a la revista del círculo.",
+  "socialImage": "/images/seo/autor-julio-gomez.jpg",
+  "indexable": true
+}

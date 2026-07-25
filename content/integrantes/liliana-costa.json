@@ -1,0 +1,19 @@
+{
+  "slug": "liliana-costa",
+  "name": "Liliana Costa",
+  "group": "Antiguos integrantes",
+  "summary": "Escritora difundida en la revista del círculo y en eventos culturales locales.",
+  "biography": "Escritora paivense cuyos trabajos fueron difundidos en la revista del Círculo de Escritores Paivenses y en encuentros culturales de la ciudad.",
+  "image": "",
+  "imageAlt": "",
+  "imagePosition": "center",
+  "genre": "Literatura local",
+  "contactLabel": "Contacto a través de CI.ES.PA",
+  "contactUrl": "/contacto/",
+  "order": 12,
+  "visible": true,
+  "seoTitle": "Liliana Costa | Integrante de CI.ES.PA",
+  "seoDescription": "Escritora difundida en la revista del círculo y en eventos culturales locales.",
+  "socialImage": "/images/seo/autor-liliana-costa.jpg",
+  "indexable": true
+}

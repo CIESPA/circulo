@@ -1,0 +1,16 @@
+{
+  "route": "/escritos-paivenses/",
+  "active": "/escritos-paivenses/",
+  "label": "Escritos paivenses",
+  "eyebrow": "Comunidad abierta",
+  "title": "Escritos <em>paivenses</em>",
+  "deco": "Nuevas voces",
+  "intro": "Un espacio para publicar poemas, cuentos y ensayos de personas de la comunidad que todavía no desean integrar CI.ES.PA, pero quieren compartir su obra.",
+  "emptyTitle": "La convocatoria está abierta",
+  "emptyText": "Todavía no hay escritos publicados en esta sección. Podés enviar tu propuesta desde la página de contacto.",
+  "seoTitle": "Escritos paivenses | Nuevas voces de Laguna Paiva",
+  "seoDescription": "Espacio de CI.ES.PA para publicar poemas y relatos de autores de la comunidad que aún no integran el círculo.",
+  "socialImage": "/images/seo/ciespa-institucional.jpg",
+  "indexable": true,
+  "schemaType": "CollectionPage"
+}

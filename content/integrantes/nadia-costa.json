@@ -1,0 +1,19 @@
+{
+  "slug": "nadia-costa",
+  "name": "Nadia Costa",
+  "group": "Las voces del presente",
+  "summary": "Narradora de suspenso y drama psicológico, autora de El miedo está en mi sangre.",
+  "biography": "Autora de *El miedo está en mi sangre*, una novela de suspenso y drama psicológico donde Diana, una joven recién casada, vive con su esposo en una antigua casa de campo restaurada. Su tranquilidad se quiebra cuando llegan empleados contratados, en especial uno de personalidad extraña.\n\nSu narrativa se adentra en los temores íntimos y en la fragilidad de lo cotidiano.",
+  "image": "/images/nadia_costa.webp",
+  "imageAlt": "Retrato de Nadia Costa",
+  "imagePosition": "center 15%",
+  "genre": "Suspenso y drama psicológico",
+  "contactLabel": "Contacto a través de CI.ES.PA",
+  "contactUrl": "/contacto/",
+  "order": 14,
+  "visible": true,
+  "seoTitle": "Nadia Costa | Integrante de CI.ES.PA",
+  "seoDescription": "Narradora de suspenso y drama psicológico, autora de El miedo está en mi sangre.",
+  "socialImage": "/images/seo/autor-nadia-costa.jpg",
+  "indexable": true
+}

@@ -1,0 +1,18 @@
+{
+  "route": "/contacto/",
+  "active": "/contacto/",
+  "label": "Contacto",
+  "eyebrow": "Escribinos",
+  "title": "Te <em>leemos</em>",
+  "deco": "Contacto",
+  "heading": "¿Querés sumarte al círculo o compartir una obra?",
+  "intro": "Podés escribirnos para participar, enviar un texto a Escritos paivenses, acercar información para la librería virtual, donar material al archivo o proponer una actividad.",
+  "formTitle": "Enviar un mensaje",
+  "email": "ciespa2026@gmail.com",
+  "location": "Laguna Paiva, Santa Fe, Argentina",
+  "seoTitle": "Contacto con CI.ES.PA | Círculo de Escritores Paivenses",
+  "seoDescription": "Contactá a CI.ES.PA para participar, publicar textos, donar material o proponer actividades literarias.",
+  "socialImage": "/images/seo/ciespa-institucional.jpg",
+  "indexable": true,
+  "schemaType": "ContactPage"
+}

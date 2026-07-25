@@ -1,0 +1,4 @@
+CI.ES.PA Netlify SEO avanzado
+Versión: 1.0.0
+Dominio canónico: https://www.ciespa.com.ar
+Generación: sitio estático sin adaptadores ni servidor

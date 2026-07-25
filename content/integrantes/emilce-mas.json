@@ -1,0 +1,19 @@
+{
+  "slug": "emilce-mas",
+  "name": "Emilce Más",
+  "group": "Antiguos integrantes",
+  "summary": "Poeta y escritora de mirada sensible.",
+  "biography": "Poeta y escritora que aportó su mirada sensible a la revista literaria del círculo y a las actividades culturales de la comunidad.",
+  "image": "",
+  "imageAlt": "",
+  "imagePosition": "center",
+  "genre": "Poesía",
+  "contactLabel": "Contacto a través de CI.ES.PA",
+  "contactUrl": "/contacto/",
+  "order": 11,
+  "visible": true,
+  "seoTitle": "Emilce Más | Integrante de CI.ES.PA",
+  "seoDescription": "Poeta y escritora de mirada sensible.",
+  "socialImage": "/images/seo/autor-emilce-mas.jpg",
+  "indexable": true
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "nanci-mascinsky",
+  "name": "Nanci Mascinsky",
+  "group": "Fundadores",
+  "summary": "Escritora fundadora y partícipe de los primeros encuentros del grupo.",
+  "biography": "Escritora fundadora del Círculo de Escritores Paivenses. Participó de los primeros encuentros que dieron origen al grupo y contribuyó a consolidar su espacio de intercambio y creación.",
+  "image": "",
+  "imageAlt": "",
+  "imagePosition": "center",
+  "genre": "Literatura local",
+  "contactLabel": "Contacto a través de CI.ES.PA",
+  "contactUrl": "/contacto/",
+  "order": 6,
+  "visible": true,
+  "seoTitle": "Nanci Mascinsky | Integrante de CI.ES.PA",
+  "seoDescription": "Escritora fundadora y partícipe de los primeros encuentros del grupo.",
+  "socialImage": "/images/seo/autor-nanci-mascinsky.jpg",
+  "indexable": true
+}

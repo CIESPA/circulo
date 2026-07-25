@@ -1,0 +1,91 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NPM_FLAGS = "--no-audit --no-fund"
+
+[dev]
+  command = "npm run dev"
+  publish = "dist"
+  port = 8888
+
+# Dominio raíz hacia www (activar una vez añadido el dominio en Netlify)
+[[redirects]]
+  from = "https://ciespa.com.ar/*"
+  to = "https://www.ciespa.com.ar/:splat"
+  status = 301
+  force = true
+
+# URLs antiguas del sitio estático
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/historia.html"
+  to = "/historia/"
+  status = 301
+[[redirects]]
+  from = "/integrantes.html"
+  to = "/integrantes/"
+  status = 301
+[[redirects]]
+  from = "/archivo.html"
+  to = "/archivo/"
+  status = 301
+[[redirects]]
+  from = "/relatos.html"
+  to = "/relatos/"
+  status = 301
+[[redirects]]
+  from = "/escritos-paivenses.html"
+  to = "/escritos-paivenses/"
+  status = 301
+[[redirects]]
+  from = "/libreria-virtual.html"
+  to = "/libreria-virtual/"
+  status = 301
+[[redirects]]
+  from = "/eventos.html"
+  to = "/eventos/"
+  status = 301
+[[redirects]]
+  from = "/contacto.html"
+  to = "/contacto/"
+  status = 301
+[[redirects]]
+  from = "/gracias.html"
+  to = "/gracias/"
+  status = 301
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=()"
+    Cross-Origin-Opener-Policy = "same-origin-allow-popups"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    Cache-Control = "no-store"
+    X-Robots-Tag = "noindex"

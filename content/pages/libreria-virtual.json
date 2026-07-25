@@ -1,0 +1,14 @@
+{
+  "route": "/libreria-virtual/",
+  "active": "/libreria-virtual/",
+  "label": "Librería virtual",
+  "eyebrow": "Publicaciones",
+  "title": "Librería <em>virtual</em>",
+  "deco": "Libros",
+  "intro": "Seleccioná una obra para leer su sinopsis y consultar los enlaces externos disponibles. CI.ES.PA no procesa ventas: funciona como vidriera y puente hacia los canales de cada autor o editorial.",
+  "seoTitle": "Librería virtual de CI.ES.PA | Libros de autores paivenses",
+  "seoDescription": "Portadas, sinopsis y enlaces externos para conocer y adquirir libros de integrantes de CI.ES.PA.",
+  "socialImage": "/images/seo/ciespa-institucional.jpg",
+  "indexable": true,
+  "schemaType": "CollectionPage"
+}

@@ -1,0 +1,368 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+locale: es
+publish_mode: simple
+media_folder: public/uploads
+public_folder: /uploads
+logo_url: /images/logo2.webp
+site_url: https://www.ciespa.com.ar
+display_url: https://www.ciespa.com.ar
+
+collections:
+  - name: configuracion
+    label: Configuración general
+    format: json
+    editor:
+      preview: false
+    files:
+      - label: Identidad del sitio
+        name: sitio
+        file: content/site.json
+        fields:
+          - {label: Dominio principal, name: domain, widget: string, hint: "Mantener https://www.ciespa.com.ar"}
+          - {label: Nombre institucional, name: name, widget: string}
+          - {label: Sigla, name: shortName, widget: string}
+          - {label: Descripción institucional, name: description, widget: text}
+          - {label: Correo, name: email, widget: string}
+          - {label: Ubicación, name: location, widget: string}
+          - {label: Logo, name: logo, widget: image}
+          - {label: Logo del pie, name: footerLogo, widget: image}
+          - {label: Imagen social predeterminada, name: defaultSocialImage, widget: image}
+          - {label: Texto del pie, name: footerText, widget: text}
+          - label: Menú
+            name: nav
+            widget: list
+            fields:
+              - {label: Texto, name: label, widget: string}
+              - {label: Enlace, name: url, widget: string}
+
+  - name: paginas
+    label: Páginas del sitio
+    format: json
+    editor:
+      preview: false
+    files:
+      - label: Inicio
+        name: inicio
+        file: content/pages/inicio.json
+        fields:
+          - {label: Ruta, name: route, widget: hidden, default: "/"}
+          - {label: Menú activo, name: active, widget: hidden, default: "/"}
+          - {label: Nombre interno, name: label, widget: hidden, default: Inicio}
+          - {label: Antetítulo, name: heroEyebrow, widget: string}
+          - {label: Título principal, name: heroTitle, widget: string, hint: "Admite <em>cursiva</em>"}
+          - {label: Texto principal, name: heroText, widget: text}
+          - {label: Imagen principal, name: heroImage, widget: image}
+          - {label: Texto alternativo, name: heroImageAlt, widget: string}
+          - {label: Botón, name: ctaLabel, widget: string}
+          - {label: Enlace del botón, name: ctaUrl, widget: string}
+          - label: Tarjetas
+            name: cards
+            widget: list
+            fields:
+              - {label: Título, name: title, widget: string}
+              - {label: Texto, name: text, widget: text}
+              - {label: Botón, name: label, widget: string}
+              - {label: Enlace, name: url, widget: string}
+          - {label: Antetítulo de bienvenida, name: welcomeEyebrow, widget: string}
+          - {label: Título de bienvenida, name: welcomeTitle, widget: string}
+          - {label: Texto de bienvenida, name: welcomeBody, widget: markdown}
+          - {label: Imagen de bienvenida, name: welcomeImage, widget: image}
+          - {label: Texto alternativo, name: welcomeImageAlt, widget: string}
+          - &seo_title {label: Título SEO, name: seoTitle, widget: string, hint: "Ideal: 45 a 60 caracteres"}
+          - &seo_desc {label: Descripción SEO, name: seoDescription, widget: text, hint: "Ideal: 120 a 160 caracteres"}
+          - &social_img {label: Imagen para WhatsApp y redes (1200x630), name: socialImage, widget: image}
+          - &indexable {label: Permitir indexación, name: indexable, widget: boolean, default: true}
+          - {label: Tipo Schema, name: schemaType, widget: hidden, default: WebSite}
+      - label: Historia
+        name: historia
+        file: content/pages/historia.json
+        fields:
+          - {label: Ruta, name: route, widget: hidden, default: "/historia/"}
+          - {label: Menú activo, name: active, widget: hidden, default: "/historia/"}
+          - {label: Nombre interno, name: label, widget: hidden, default: Historia}
+          - {label: Antetítulo, name: eyebrow, widget: string}
+          - {label: Título, name: title, widget: string}
+          - {label: Decoración, name: deco, widget: string}
+          - {label: Introducción, name: intro, widget: text}
+          - {label: Historia, name: body, widget: markdown}
+          - {label: Imagen principal, name: heroImage, widget: image}
+          - {label: Texto alternativo, name: heroImageAlt, widget: string}
+          - label: Galería
+            name: gallery
+            widget: list
+            fields:
+              - {label: Imagen, name: image, widget: image}
+              - {label: Texto alternativo, name: alt, widget: string}
+              - {label: Epígrafe, name: caption, widget: string}
+          - *seo_title
+          - *seo_desc
+          - *social_img
+          - *indexable
+          - {label: Tipo Schema, name: schemaType, widget: hidden, default: AboutPage}
+      - label: Integrantes
+        name: integrantes
+        file: content/pages/integrantes.json
+        fields:
+          - {label: Ruta, name: route, widget: hidden, default: "/integrantes/"}
+          - {label: Menú activo, name: active, widget: hidden, default: "/integrantes/"}
+          - {label: Nombre interno, name: label, widget: hidden, default: Integrantes}
+          - {label: Antetítulo, name: eyebrow, widget: string}
+          - {label: Título, name: title, widget: string}
+          - {label: Decoración, name: deco, widget: string}
+          - {label: Introducción, name: intro, widget: text}
+          - {label: Título fundadores, name: foundersTitle, widget: string}
+          - {label: Introducción fundadores, name: foundersIntro, widget: text}
+          - {label: Título antiguos, name: formerTitle, widget: string}
+          - {label: Introducción antiguos, name: formerIntro, widget: text}
+          - {label: Título actuales, name: currentTitle, widget: string}
+          - {label: Introducción actuales, name: currentIntro, widget: text}
+          - {label: Ayuda del carrusel, name: sliderHelp, widget: text}
+          - {label: Llamado final, name: cta, widget: text}
+          - *seo_title
+          - *seo_desc
+          - *social_img
+          - *indexable
+          - {label: Tipo Schema, name: schemaType, widget: hidden, default: CollectionPage}
+      - label: Archivo
+        name: archivo
+        file: content/pages/archivo.json
+        fields:
+          - {label: Ruta, name: route, widget: hidden, default: "/archivo/"}
+          - {label: Menú activo, name: active, widget: hidden, default: "/archivo/"}
+          - {label: Nombre interno, name: label, widget: hidden, default: Archivo}
+          - {label: Antetítulo, name: eyebrow, widget: string}
+          - {label: Título, name: title, widget: string}
+          - {label: Decoración, name: deco, widget: string}
+          - {label: Introducción, name: intro, widget: text}
+          - label: Entradas del archivo
+            name: entries
+            widget: list
+            fields:
+              - {label: Año o referencia, name: year, widget: string}
+              - {label: Título, name: title, widget: string}
+              - {label: Descripción, name: body, widget: markdown}
+          - {label: Llamado final, name: cta, widget: text}
+          - *seo_title
+          - *seo_desc
+          - *social_img
+          - *indexable
+          - {label: Tipo Schema, name: schemaType, widget: hidden, default: CollectionPage}
+      - label: Relatos
+        name: relatos
+        file: content/pages/relatos.json
+        fields: &simple_page_fields
+          - {label: Ruta, name: route, widget: hidden}
+          - {label: Menú activo, name: active, widget: hidden}
+          - {label: Nombre interno, name: label, widget: hidden}
+          - {label: Antetítulo, name: eyebrow, widget: string}
+          - {label: Título, name: title, widget: string}
+          - {label: Decoración, name: deco, widget: string}
+          - {label: Introducción, name: intro, widget: text}
+          - *seo_title
+          - *seo_desc
+          - *social_img
+          - *indexable
+          - {label: Tipo Schema, name: schemaType, widget: hidden, default: CollectionPage}
+      - label: Escritos paivenses
+        name: escritos_paivenses
+        file: content/pages/escritos-paivenses.json
+        fields:
+          - {label: Ruta, name: route, widget: hidden}
+          - {label: Menú activo, name: active, widget: hidden}
+          - {label: Nombre interno, name: label, widget: hidden}
+          - {label: Antetítulo, name: eyebrow, widget: string}
+          - {label: Título, name: title, widget: string}
+          - {label: Decoración, name: deco, widget: string}
+          - {label: Introducción, name: intro, widget: text}
+          - {label: Título sin publicaciones, name: emptyTitle, widget: string}
+          - {label: Texto sin publicaciones, name: emptyText, widget: text}
+          - *seo_title
+          - *seo_desc
+          - *social_img
+          - *indexable
+          - {label: Tipo Schema, name: schemaType, widget: hidden, default: CollectionPage}
+      - label: Librería virtual
+        name: libreria
+        file: content/pages/libreria-virtual.json
+        fields: *simple_page_fields
+      - label: Eventos
+        name: eventos
+        file: content/pages/eventos.json
+        fields:
+          - {label: Ruta, name: route, widget: hidden, default: "/eventos/"}
+          - {label: Menú activo, name: active, widget: hidden, default: "/eventos/"}
+          - {label: Nombre interno, name: label, widget: hidden, default: Eventos}
+          - {label: Antetítulo, name: eyebrow, widget: string}
+          - {label: Título, name: title, widget: string}
+          - {label: Decoración, name: deco, widget: string}
+          - {label: Línea superior, name: overline, widget: string}
+          - {label: Mensaje principal, name: messageTitle, widget: string}
+          - {label: Texto, name: message, widget: text}
+          - {label: Botón, name: ctaLabel, widget: string}
+          - {label: Enlace del botón, name: ctaUrl, widget: string}
+          - *seo_title
+          - *seo_desc
+          - *social_img
+          - *indexable
+          - {label: Tipo Schema, name: schemaType, widget: hidden, default: CollectionPage}
+      - label: Contacto
+        name: contacto
+        file: content/pages/contacto.json
+        fields:
+          - {label: Ruta, name: route, widget: hidden, default: "/contacto/"}
+          - {label: Menú activo, name: active, widget: hidden, default: "/contacto/"}
+          - {label: Nombre interno, name: label, widget: hidden, default: Contacto}
+          - {label: Antetítulo, name: eyebrow, widget: string}
+          - {label: Título, name: title, widget: string}
+          - {label: Decoración, name: deco, widget: string}
+          - {label: Encabezado, name: heading, widget: string}
+          - {label: Introducción, name: intro, widget: text}
+          - {label: Título del formulario, name: formTitle, widget: string}
+          - {label: Correo, name: email, widget: string}
+          - {label: Ubicación, name: location, widget: string}
+          - *seo_title
+          - *seo_desc
+          - *social_img
+          - *indexable
+          - {label: Tipo Schema, name: schemaType, widget: hidden, default: ContactPage}
+      - label: Página de agradecimiento
+        name: gracias
+        file: content/pages/gracias.json
+        fields:
+          - {label: Ruta, name: route, widget: hidden, default: "/gracias/"}
+          - {label: Menú activo, name: active, widget: hidden, default: ""}
+          - {label: Nombre interno, name: label, widget: hidden, default: Gracias}
+          - {label: Antetítulo, name: eyebrow, widget: string}
+          - {label: Título, name: title, widget: string}
+          - {label: Mensaje, name: message, widget: text}
+          - *seo_title
+          - *seo_desc
+          - *social_img
+          - {label: Permitir indexación, name: indexable, widget: hidden, default: false}
+          - {label: Tipo Schema, name: schemaType, widget: hidden, default: WebPage}
+
+  - name: integrantes
+    label: Integrantes
+    folder: content/integrantes
+    create: true
+    format: json
+    extension: json
+    identifier_field: name
+    slug: "{{fields.slug}}"
+    summary: "{{name}} — {{group}}"
+    editor:
+      preview: false
+    fields:
+      - {label: Slug de URL, name: slug, widget: string, pattern: ['^[a-z0-9-]+$', 'Solo minúsculas, números y guiones']}
+      - {label: Nombre, name: name, widget: string}
+      - {label: Grupo, name: group, widget: select, options: [Fundadores, Antiguos integrantes, Las voces del presente]}
+      - {label: Género o especialidad, name: genre, widget: string}
+      - {label: Resumen breve, name: summary, widget: text}
+      - {label: Biografía, name: biography, widget: markdown}
+      - {label: Fotografía, name: image, widget: image, required: false}
+      - {label: Texto alternativo de foto, name: imageAlt, widget: string, required: false}
+      - {label: Posición de la foto, name: imagePosition, widget: string, default: center}
+      - {label: Texto del contacto, name: contactLabel, widget: string, required: false}
+      - {label: Enlace de contacto, name: contactUrl, widget: string, required: false}
+      - {label: Orden, name: order, widget: number, value_type: int}
+      - {label: Visible, name: visible, widget: boolean, default: true}
+      - *seo_title
+      - *seo_desc
+      - *social_img
+      - *indexable
+
+  - name: libros
+    label: Librería virtual
+    folder: content/libros
+    create: true
+    format: json
+    extension: json
+    identifier_field: title
+    slug: "{{fields.slug}}"
+    summary: "{{title}} — {{authorName}}"
+    editor:
+      preview: false
+    fields:
+      - {label: Slug de URL, name: slug, widget: string, pattern: ['^[a-z0-9-]+$', 'Solo minúsculas, números y guiones']}
+      - {label: Título, name: title, widget: string}
+      - {label: Slug del autor, name: authorSlug, widget: string}
+      - {label: Nombre del autor, name: authorName, widget: string}
+      - {label: Género, name: genre, widget: string}
+      - {label: Portada, name: cover, widget: image}
+      - {label: Texto alternativo de portada, name: coverAlt, widget: string}
+      - {label: Sinopsis, name: synopsis, widget: markdown}
+      - {label: Editorial, name: publisher, widget: string, required: false}
+      - {label: ISBN, name: isbn, widget: string, required: false}
+      - {label: Año, name: publicationYear, widget: string, required: false}
+      - label: Enlaces de compra
+        name: purchaseLinks
+        widget: list
+        required: false
+        fields:
+          - {label: Tienda o canal, name: label, widget: string}
+          - {label: URL, name: url, widget: string}
+      - {label: Orden, name: order, widget: number, value_type: int}
+      - {label: Visible, name: visible, widget: boolean, default: true}
+      - *seo_title
+      - *seo_desc
+      - *social_img
+      - *indexable
+
+  - name: textos
+    label: Textos de integrantes
+    folder: content/textos
+    create: true
+    format: json
+    extension: json
+    identifier_field: title
+    slug: "{{fields.slug}}"
+    summary: "{{title}} — {{authorName}}"
+    editor:
+      preview: false
+    fields:
+      - {label: Slug de URL, name: slug, widget: string, pattern: ['^[a-z0-9-]+$', 'Solo minúsculas, números y guiones']}
+      - {label: Título, name: title, widget: string}
+      - {label: Slug del autor, name: authorSlug, widget: string}
+      - {label: Nombre del autor, name: authorName, widget: string}
+      - {label: Tipo, name: type, widget: select, options: [Poesía, Relato, Cuento, Ensayo, Crónica]}
+      - {label: Resumen, name: summary, widget: text}
+      - {label: Contenido, name: body, widget: markdown}
+      - {label: Fecha de publicación, name: published, widget: datetime, date_format: YYYY-MM-DD, time_format: false, required: false}
+      - {label: Última actualización, name: updated, widget: datetime, date_format: YYYY-MM-DD, time_format: false, required: false}
+      - {label: Orden, name: order, widget: number, value_type: int}
+      - {label: Visible, name: visible, widget: boolean, default: true}
+      - *seo_title
+      - *seo_desc
+      - *social_img
+      - *indexable
+
+  - name: escritos
+    label: Escritos paivenses
+    folder: content/escritos
+    create: true
+    format: json
+    extension: json
+    identifier_field: title
+    slug: "{{fields.slug}}"
+    summary: "{{title}} — {{authorName}}"
+    editor:
+      preview: false
+    fields:
+      - {label: Slug de URL, name: slug, widget: string, pattern: ['^[a-z0-9-]+$', 'Solo minúsculas, números y guiones']}
+      - {label: Título, name: title, widget: string}
+      - {label: Autor, name: authorName, widget: string}
+      - {label: Tipo, name: type, widget: select, options: [Poesía, Relato, Cuento, Ensayo, Crónica]}
+      - {label: Resumen, name: summary, widget: text}
+      - {label: Contenido, name: body, widget: markdown}
+      - {label: Fecha de publicación, name: published, widget: datetime, date_format: YYYY-MM-DD, time_format: false, required: false}
+      - {label: Última actualización, name: updated, widget: datetime, date_format: YYYY-MM-DD, time_format: false, required: false}
+      - {label: Orden, name: order, widget: number, value_type: int}
+      - {label: Visible, name: visible, widget: boolean, default: true}
+      - *seo_title
+      - *seo_desc
+      - *social_img
+      - *indexable

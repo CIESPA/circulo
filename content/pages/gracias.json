@@ -1,0 +1,13 @@
+{
+  "route": "/gracias/",
+  "active": "",
+  "label": "Gracias",
+  "eyebrow": "Mensaje recibido",
+  "title": "Gracias por <em>escribirnos</em>",
+  "message": "Tu mensaje fue enviado a CI.ES.PA. Lo leeremos y responderemos por el medio que indicaste.",
+  "seoTitle": "Mensaje recibido | CI.ES.PA",
+  "seoDescription": "Confirmación de envío del formulario de contacto de CI.ES.PA.",
+  "socialImage": "/images/seo/ciespa-institucional.jpg",
+  "indexable": false,
+  "schemaType": "WebPage"
+}

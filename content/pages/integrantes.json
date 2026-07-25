@@ -1,0 +1,22 @@
+{
+  "route": "/integrantes/",
+  "active": "/integrantes/",
+  "label": "Integrantes",
+  "eyebrow": "Comunidad literaria",
+  "title": "Las voces <em>del círculo</em>",
+  "deco": "Voces",
+  "intro": "Autores que dieron origen al círculo, escritores que dejaron huella y voces que hoy renuevan la vida literaria de CI.ES.PA.",
+  "foundersTitle": "Quienes dieron <em>vida al círculo</em>",
+  "foundersIntro": "El Círculo de Escritores Paivenses nació de la iniciativa de escritores que buscaban compartir su voz y preservar la identidad cultural de Laguna Paiva.",
+  "formerTitle": "Voces que <em>dejaron huella</em>",
+  "formerIntro": "Escritores que formaron parte del círculo y enriquecieron su acervo literario a lo largo de los años.",
+  "currentTitle": "Las voces <em>del presente</em>",
+  "currentIntro": "CI.ES.PA continúa creciendo e incorpora autores que rescatan historias y forjan nuevas miradas.",
+  "sliderHelp": "El carrusel avanza automáticamente. También podés usar las flechas o deslizar para conocer a cada integrante.",
+  "cta": "¿Escribís en Laguna Paiva y querés conocer el círculo? Contactanos. Si todavía no querés integrarte, también podés publicar en Escritos paivenses.",
+  "seoTitle": "Integrantes de CI.ES.PA | Escritores paivenses",
+  "seoDescription": "Conocé a fundadores, antiguos integrantes y voces actuales del Círculo de Escritores Paivenses.",
+  "socialImage": "/images/seo/ciespa-institucional.jpg",
+  "indexable": true,
+  "schemaType": "CollectionPage"
+}

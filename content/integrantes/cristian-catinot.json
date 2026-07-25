@@ -1,0 +1,19 @@
+{
+  "slug": "cristian-catinot",
+  "name": "Cristian Catinot",
+  "group": "Las voces del presente",
+  "summary": "Docente y escritor, autor de Tiempo de palabras.",
+  "biography": "Docente y escritor, secretario de Educación Técnica y Adultos de AMSAFE. Presentó *Tiempo de palabras*, su segundo libro, una recopilación de poemas, frases y reflexiones sobre la vida, el amor y la búsqueda de la felicidad.\n\nSu trabajo une la educación, la cultura y una mirada sensible sobre la experiencia humana.",
+  "image": "/images/cristian_catinot.webp",
+  "imageAlt": "Retrato de Cristian Catinot",
+  "imagePosition": "center 15%",
+  "genre": "Poesía y reflexiones",
+  "contactLabel": "Contacto a través de CI.ES.PA",
+  "contactUrl": "/contacto/",
+  "order": 15,
+  "visible": true,
+  "seoTitle": "Cristian Catinot | Integrante de CI.ES.PA",
+  "seoDescription": "Docente y escritor, autor de Tiempo de palabras.",
+  "socialImage": "/images/seo/autor-cristian-catinot.jpg",
+  "indexable": true
+}

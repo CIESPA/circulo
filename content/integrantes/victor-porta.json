@@ -1,0 +1,19 @@
+{
+  "slug": "victor-porta",
+  "name": "Víctor Porta",
+  "group": "Fundadores",
+  "summary": "Autor de cuentos y poesías inspirados en la vida ferroviaria y las tradiciones locales.",
+  "biography": "Integrante fundador del Círculo de Escritores Paivenses. Su producción reúne cuentos y poesías inspirados en la vida ferroviaria y en las tradiciones de Laguna Paiva.",
+  "image": "",
+  "imageAlt": "",
+  "imagePosition": "center",
+  "genre": "Literatura local",
+  "contactLabel": "Contacto a través de CI.ES.PA",
+  "contactUrl": "/contacto/",
+  "order": 1,
+  "visible": true,
+  "seoTitle": "Víctor Porta | Integrante de CI.ES.PA",
+  "seoDescription": "Autor de cuentos y poesías inspirados en la vida ferroviaria y las tradiciones locales.",
+  "socialImage": "/images/seo/autor-victor-porta.jpg",
+  "indexable": true
+}

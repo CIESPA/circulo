@@ -1,0 +1,47 @@
+{
+  "route": "/archivo/",
+  "active": "/archivo/",
+  "label": "Archivo",
+  "eyebrow": "Patrimonio literario",
+  "title": "Memoria <em>escrita</em>",
+  "deco": "Archivo",
+  "intro": "La revista literaria del círculo reúne décadas de producción local. Aquí se conservan publicaciones y documentos que forman parte del patrimonio cultural de Laguna Paiva.",
+  "entries": [
+    {
+      "year": "2007",
+      "title": "Revista Tiempos — 9.ª edición",
+      "body": "Tapa ilustrada por Gabriela Gauna. Prólogo de Cristina Mix. Colaboraciones de Pablo Molinas, Bety Fantini, Julio Gómez, Mauricio Grimalt, Carlos Duarte, Silvina Sánchez, Víctor Porta, Vivian Ruth Sinelli, Emilce Más y Liliana Costa. Incluye poesía de estudiantes de la Escuela Técnica N.º 691."
+    },
+    {
+      "year": "2010",
+      "title": "Antología Tiempos de Letras",
+      "body": "Recopilación de textos de integrantes del círculo publicada con el apoyo de la Secretaría de Cultura de Laguna Paiva."
+    },
+    {
+      "year": "2011",
+      "title": "Antología Instantáneas",
+      "body": "Segunda antología del círculo, con textos de Cristina Mix y otros integrantes fundadores."
+    },
+    {
+      "year": "—",
+      "title": "Revista Identidad",
+      "body": "Publicación de la Biblioteca Popular Juan B. Alberdi, con participación de Elena Díaz, María Isabel Cabrera de Pierini y Lilia de Zedde."
+    },
+    {
+      "year": "16 años",
+      "title": "Notas periodísticas de Cristina Mix",
+      "body": "Corresponsalía en Laguna Paiva del periódico El Santafesino. Crónicas sobre vida cotidiana, cultura y memoria ferroviaria."
+    },
+    {
+      "year": "Radio",
+      "title": "Programa Aires de…",
+      "body": "Conducido por Cristina Mix, difundió la producción literaria local y promovió la lectura en la comunidad paivense."
+    }
+  ],
+  "cta": "¿Tenés documentos, fotografías o publicaciones del círculo? Escribinos para incorporarlos al archivo.",
+  "seoTitle": "Archivo literario de CI.ES.PA | Revista Tiempos",
+  "seoDescription": "Revistas, antologías, notas y memoria escrita del Círculo de Escritores Paivenses de Laguna Paiva.",
+  "socialImage": "/images/seo/ciespa-institucional.jpg",
+  "indexable": true,
+  "schemaType": "CollectionPage"
+}

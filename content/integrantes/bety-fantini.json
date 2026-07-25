@@ -1,0 +1,19 @@
+{
+  "slug": "bety-fantini",
+  "name": "Bety Fantini",
+  "group": "Antiguos integrantes",
+  "summary": "Poeta de la región y autora de Cayastacito.",
+  "biography": "Autora de poemas dedicados a la región. Su poema *Cayastacito* retrata el paisaje, las aves, los caminos y la nostalgia por el pueblo. Participó en lecturas y talleres vinculados al círculo.",
+  "image": "",
+  "imageAlt": "",
+  "imagePosition": "center",
+  "genre": "Poesía",
+  "contactLabel": "Contacto a través de CI.ES.PA",
+  "contactUrl": "/contacto/",
+  "order": 8,
+  "visible": true,
+  "seoTitle": "Bety Fantini | Integrante de CI.ES.PA",
+  "seoDescription": "Poeta de la región y autora de Cayastacito.",
+  "socialImage": "/images/seo/autor-bety-fantini.jpg",
+  "indexable": true
+}

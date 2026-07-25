@@ -1,0 +1,18 @@
+{
+  "route": "/eventos/",
+  "active": "/eventos/",
+  "label": "Eventos",
+  "eyebrow": "Encuentros literarios",
+  "title": "Agenda <em>CI.ES.PA</em>",
+  "deco": "Agenda",
+  "overline": "Programación en preparación",
+  "messageTitle": "Próximamente, agenda disponible",
+  "message": "Estamos organizando las próximas actividades, presentaciones y encuentros de CI.ES.PA. Las fechas se publicarán aquí cuando estén confirmadas.",
+  "ctaLabel": "Proponer una actividad",
+  "ctaUrl": "/contacto/",
+  "seoTitle": "Eventos literarios de CI.ES.PA | Laguna Paiva",
+  "seoDescription": "Agenda de presentaciones, talleres y encuentros literarios del Círculo de Escritores Paivenses.",
+  "socialImage": "/images/seo/ciespa-institucional.jpg",
+  "indexable": true,
+  "schemaType": "CollectionPage"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "cristina-mix",
+  "name": "Cristina Mix",
+  "group": "Fundadores",
+  "summary": "Impulsora de la revista Tiempos, escritora, periodista y promotora cultural.",
+  "biography": "Nacida en Nare, departamento San Justo, Santa Fe, y radicada en Laguna Paiva desde joven, Cristina Mix participó en certámenes literarios de todo el país y en numerosas antologías.\n\nFue miembro fundadora del Círculo de Escritores Paivenses, organización dedicada a la animación a la lectura y a la difusión de la revista *Tiempos*. Publicó obras en la antología *Tiempos de Letras* (2010), en *Instantáneas* (2011) y en la revista *Nosotros*.\n\nFue corresponsal en Laguna Paiva del periódico *El Santafesino* durante dieciséis años y conductora del programa radial *Aires de…*. Continúa promoviendo la lectura y participa activamente en la vida cultural de la ciudad.",
+  "image": "",
+  "imageAlt": "",
+  "imagePosition": "center",
+  "genre": "Literatura y periodismo",
+  "contactLabel": "Contacto a través de CI.ES.PA",
+  "contactUrl": "/contacto/",
+  "order": 4,
+  "visible": true,
+  "seoTitle": "Cristina Mix | Integrante de CI.ES.PA",
+  "seoDescription": "Impulsora de la revista Tiempos, escritora, periodista y promotora cultural.",
+  "socialImage": "/images/seo/autor-cristina-mix.jpg",
+  "indexable": true
+}

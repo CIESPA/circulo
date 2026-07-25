@@ -1,0 +1,34 @@
+{
+  "route": "/historia/",
+  "active": "/historia/",
+  "label": "Historia",
+  "eyebrow": "Nuestra memoria",
+  "title": "De los rieles <em>a las letras</em>",
+  "deco": "1912",
+  "intro": "La identidad ferroviaria de Laguna Paiva y la necesidad de narrar la vida local confluyeron en un círculo que convirtió la memoria en palabra.",
+  "body": "Laguna Paiva nació y creció al compás del ferrocarril. Los talleres ferroviarios de la localidad comenzaron a construirse en 1912 y en 1913 se inauguró el depósito de locomotoras conocido como «La Rotonda», un edificio semicircular que albergaba una plataforma giratoria de 22 metros. Este hito industrial consolidó al pueblo como centro ferroviario y forjó una identidad obrera y comunitaria en sus habitantes.\n\nCon el paso del tiempo, muchos paivenses sintieron la necesidad de contar su historia y la de sus vecinos. Así, un grupo de autores locales decidió fundar el Círculo de Escritores Paivenses, también llamado CI.ES.PA, para animar la lectura y difundir sus propias voces. Entre sus impulsoras se encontraba la escritora y periodista **Cristina Mix**, nacida en Nare y radicada desde joven en Laguna Paiva.\n\nEn 2007, CI.ES.PA presentó la novena edición de su revista literaria con una tapa ilustrada por Gabriela Gauna y un prólogo de Cristina Mix. La publicación incluyó trabajos de Pablo Molinas, Bety Fantini, Julio Gómez, Mauricio Grimalt, Carlos Duarte, Silvina Sánchez, Víctor Porta, Vivian Ruth Sinelli, Emilce Más y Liliana Costa, además de poesía de estudiantes de la Escuela Técnica N.º 691.\n\nDesde entonces, el círculo continuó promoviendo revistas, antologías, talleres, presentaciones y encuentros entre escritores de distintas generaciones. Su propósito permanece: rescatar hechos, usos y costumbres locales mediante la palabra escrita y abrir espacio a las voces del presente.",
+  "heroImage": "/images/locomotora_paiva.webp",
+  "heroImageAlt": "Locomotora vinculada a la historia ferroviaria de Laguna Paiva",
+  "gallery": [
+    {
+      "image": "/images/laguna_paiva_yard.jpg",
+      "alt": "Patio ferroviario de Laguna Paiva",
+      "caption": "El patio ferroviario, corazón del desarrollo local."
+    },
+    {
+      "image": "/images/laguna_paiva_church.jpg",
+      "alt": "Centro histórico de Laguna Paiva",
+      "caption": "Espacios que guardan la memoria comunitaria."
+    },
+    {
+      "image": "/images/laguna_paiva_footbridge.webp",
+      "alt": "Antigua pasarela ferroviaria de Laguna Paiva",
+      "caption": "La antigua pasarela, símbolo del paisaje ferroviario."
+    }
+  ],
+  "seoTitle": "Historia de CI.ES.PA | Escritores de Laguna Paiva",
+  "seoDescription": "Origen y trayectoria del Círculo de Escritores Paivenses, desde la identidad ferroviaria hasta su legado literario.",
+  "socialImage": "/images/seo/ciespa-institucional.jpg",
+  "indexable": true,
+  "schemaType": "AboutPage"
+}

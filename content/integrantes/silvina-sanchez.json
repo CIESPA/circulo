@@ -1,0 +1,19 @@
+{
+  "slug": "silvina-sanchez",
+  "name": "Silvina Sánchez",
+  "group": "Fundadores",
+  "summary": "Escritora paivense reconocida por sus relatos y poesías.",
+  "biography": "Escritora e integrante fundadora del Círculo de Escritores Paivenses. Sus relatos y poesías fueron incluidos en las publicaciones del grupo y forman parte de la memoria literaria local.",
+  "image": "",
+  "imageAlt": "",
+  "imagePosition": "center",
+  "genre": "Narrativa y poesía",
+  "contactLabel": "Contacto a través de CI.ES.PA",
+  "contactUrl": "/contacto/",
+  "order": 5,
+  "visible": true,
+  "seoTitle": "Silvina Sánchez | Integrante de CI.ES.PA",
+  "seoDescription": "Escritora paivense reconocida por sus relatos y poesías.",
+  "socialImage": "/images/seo/autor-silvina-sanchez.jpg",
+  "indexable": true
+}
