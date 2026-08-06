@@ -1,14 +1,14 @@
 {
-  "route": "/relatos/",
   "active": "/relatos/",
-  "label": "Relatos",
+  "route": "/relatos/",
   "eyebrow": "Obras de integrantes",
-  "title": "La palabra <em>viva</em>",
-  "deco": "Textos",
-  "intro": "Poemas, cuentos y relatos de quienes forman o formaron parte de CI.ES.PA. Cada obra dispone de una página propia para leerla y compartirla.",
-  "seoTitle": "Relatos y poesías de integrantes de CI.ES.PA",
-  "seoDescription": "Selección de cuentos, poemas y textos creados por integrantes del Círculo de Escritores Paivenses.",
-  "socialImage": "/images/seo/ciespa-institucional.jpg",
   "indexable": true,
-  "schemaType": "CollectionPage"
+  "intro": "Conocé la obra de nuestros integrantes. Cada obra dispone de una página propia para leerla y compartirla.",
+  "deco": "Textos",
+  "socialImage": "/images/seo/ciespa-institucional.jpg",
+  "label": "Relatos",
+  "title": "Producción <em>local</em>",
+  "schemaType": "CollectionPage",
+  "seoTitle": "Relatos y poesías de integrantes de CI.ES.PA",
+  "seoDescription": "Selección de cuentos, poemas y textos creados por integrantes del Círculo de Escritores Paivenses."
 }
