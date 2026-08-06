@@ -47,14 +47,14 @@
   "route": "/",
   "indexable": true,
   "socialImage": "/images/seo/ciespa-institucional.jpg",
-  "heroEyebrow": "Literatura · Memoria · Comunidad",
+  "heroEyebrow": "Cultura · Comunidad · Creación",
   "welcomeImageAlt": "Libro abierto junto a una vela encendida",
   "label": "Inicio",
   "welcomeTitle": "Un espacio donde la literatura encuentra <em>comunidad</em>",
   "welcomeImage": "/images/still_life_book_candle.webp",
   "schemaType": "WebSite",
   "seoTitle": "CI.ES.PA — Círculo de Escritores Paivenses",
-  "heroTitle": "Palabras que nos unen <em>desde siempre</em>",
+  "heroTitle": "Escribir <em> en comunidad</em>",
   "ctaUrl": "/historia/",
   "seoDescription": "Sitio oficial de CI.ES.PA: escritores, obras, memoria y actividad literaria de Laguna Paiva, Santa Fe."
 }
