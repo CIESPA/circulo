@@ -1,11 +1,11 @@
 {
   "active": "/escritos-paivenses/",
   "route": "/escritos-paivenses/",
-  "eyebrow": "Comunidad abierta",
+  "eyebrow": "Colaboraciones",
   "emptyTitle": "La convocatoria está abierta",
   "indexable": true,
   "intro": "Un espacio para que personas de la comunidad publiquen sus obras de poesía, narrativa o no ficción.",
-  "deco": "Un espacio para todos",
+  "deco": "Comunidad abierta",
   "socialImage": "/images/seo/ciespa-institucional.jpg",
   "label": "Escritos paivenses",
   "title": "Otras <em> voces</em>",
