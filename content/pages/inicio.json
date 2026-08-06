@@ -1,14 +1,5 @@
 {
-  "route": "/",
-  "active": "/",
-  "label": "Inicio",
-  "heroEyebrow": "Literatura · Memoria · Comunidad",
-  "heroTitle": "Palabras que nos unen <em>desde siempre</em>",
-  "heroText": "El Círculo de Escritores Paivenses nació del encuentro, la pasión por la literatura y el deseo de dejar huella con las palabras.",
   "heroImage": "/images/fondo.webp",
-  "heroImageAlt": "Pluma estilográfica sobre un manuscrito antiguo",
-  "ctaLabel": "Conocé nuestra historia",
-  "ctaUrl": "/historia/",
   "cards": [
     {
       "title": "Historia",
@@ -47,14 +38,23 @@
       "url": "/eventos/"
     }
   ],
-  "welcomeEyebrow": "Bienvenidos",
-  "welcomeTitle": "Un espacio donde la literatura encuentra <em>comunidad</em>",
   "welcomeBody": "CI.ES.PA reúne a escritores de distintas generaciones, preserva la memoria cultural de Laguna Paiva y abre caminos para que nuevas voces encuentren lectores. Este sitio funciona como archivo, punto de encuentro y vidriera de la producción literaria paivense.",
-  "welcomeImage": "/images/still_life_book_candle.webp",
-  "welcomeImageAlt": "Libro abierto junto a una vela encendida",
-  "seoTitle": "CI.ES.PA — Círculo de Escritores Paivenses",
-  "seoDescription": "Sitio oficial de CI.ES.PA: escritores, obras, memoria y actividad literaria de Laguna Paiva, Santa Fe.",
-  "socialImage": "/images/seo/ciespa-institucional.jpg",
+  "ctaLabel": "Conocé nuestra historia",
+  "active": "/",
+  "heroText": "El Círculo de Escritores Paivenses nace del encuentro, la pasión por la literatura y el deseo de dejar huella con las palabras. ",
+  "welcomeEyebrow": "Bienvenidos",
+  "heroImageAlt": "Pluma estilográfica sobre un manuscrito antiguo",
+  "route": "/",
   "indexable": true,
-  "schemaType": "WebSite"
+  "socialImage": "/images/seo/ciespa-institucional.jpg",
+  "heroEyebrow": "Literatura · Memoria · Comunidad",
+  "welcomeImageAlt": "Libro abierto junto a una vela encendida",
+  "label": "Inicio",
+  "welcomeTitle": "Un espacio donde la literatura encuentra <em>comunidad</em>",
+  "welcomeImage": "/images/still_life_book_candle.webp",
+  "schemaType": "WebSite",
+  "seoTitle": "CI.ES.PA — Círculo de Escritores Paivenses",
+  "heroTitle": "Palabras que nos unen <em>desde siempre</em>",
+  "ctaUrl": "/historia/",
+  "seoDescription": "Sitio oficial de CI.ES.PA: escritores, obras, memoria y actividad literaria de Laguna Paiva, Santa Fe."
 }
